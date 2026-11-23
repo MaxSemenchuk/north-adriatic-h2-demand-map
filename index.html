@@ -15,7 +15,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;b
 .tog{display:flex;gap:14px;margin:0 0 10px;font-size:13px}small,.note{color:var(--mut);font-size:13px}ul{margin:6px 0;padding-left:20px}
 </style></head><body><main>
 <h1>North Adriatic Hydrogen Demand Map</h1>
-<p class="sub">Who in the North Adriatic could physically buy hydrogen, and how much. Prototype v0.2, built only from public data (EU ETS verified emissions 2025, Eurostat airport traffic). Estimates rest on stated assumptions and are not validated.</p>
+<p class="sub">Who in the North Adriatic could physically buy hydrogen, and how much. Prototype v0.2, built only from public data (EU ETS verified emissions 2025, Eurostat airport traffic). Estimates rest on stated assumptions and are not validated. <a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">View on GitHub</a></p>
 <div class="kpis" id="kpis"></div>
 <h2>Price check</h2>
 <div class="card"><div class="ctl">
@@ -40,6 +40,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;b
 <li>H₂ potential = verified CO₂ × share of emissions that is fuel heat (H₂-addressable) × 0.149 t H₂ per t CO₂ (gas-equivalent; ammonia 0.105). Shares per sector are <b>illustrative assumptions</b> (e.g. cement 10%, paper 80%, coal/gas power 15%, steel 45%) and must be calibrated with sector experts.</li>
 <li>Location comes from the account holder's postcode, not the plant. Several plants (e.g. INA's refinery, HEP plants) are filed under Zagreb; I added name keywords for Rijeka, Plomin, Pula, Koper etc. Check the "Where" column.</li>
 <li>CO₂ for e-fuel: cement, lime and ammonia emit concentrated process CO₂ (rated High), steel and refining are Medium, combustion and paper are Low. ETS counts fossil CO₂ only, so biogenic CO₂ (e.g. from pulp and paper) is invisible here.</li><li>Aviation: jet fuel is estimated as departing passengers (half of the total) times the fuel slider, so it is a rough proxy. Synthetic shares follow ReFuelEU Aviation as I recall them; check them against the regulation text.</li><li>Not covered: maritime fuels and installations outside the ETS (small, below 20 MW).</li></ul>
+<p class="note"><a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">Source code and data on GitHub</a></p>
 <p class="note">Sources: European Commission, Union Registry verified emissions 2025 (extract 1 Apr 2026) and list of operators; Eurostat, table avia_paoa (passengers by reporting airport).</p></div>
 <h2>Next: trigger signals (not wired yet)</h2>
 <div class="card"><ul><li>Hydrogen Bank / Innovation Fund / IPCEI results, PCI/PMI lists</li><li>Cancelled H₂ projects: their off-takers become orphaned buyers</li><li>Permits, tenders (TED), leadership or strategy changes, Scope 1 plans</li><li>Warm-path graph: who in the alliance knows a decision-maker at each holder</li><li>Fuel suppliers' SAF compliance gaps and airline offtake announcements</li></ul></div>
