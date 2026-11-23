@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>North Adriatic H2 Demand Map</title>
+<title>Hydrogen Demand Map</title>
 <style>
 :root{--bg:#f7f6f2;--card:#fff;--ink:#1b1f23;--mut:#6b7280;--line:#e4e2da;--core:#0f766e;--ring:#9ca3af;--acc:#b45309}
 @media(prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8e9ea;--mut:#9aa1a9;--line:#2c3237;--core:#2dd4bf;--ring:#6b7280;--acc:#f59e0b}}
@@ -14,9 +14,9 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;b
 .tw{overflow-x:auto}.tag{font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--line);color:var(--mut)}.tag.core{color:var(--core);border-color:var(--core)}
 .tog{display:flex;gap:14px;margin:0 0 10px;font-size:13px}small,.note{color:var(--mut);font-size:13px}ul{margin:6px 0;padding-left:20px}
 </style></head><body><main>
-<nav style="display:flex;gap:16px;font-size:14px;margin:0 0 12px"><a href="index.html"><b>Demand map</b></a><a href="about.html">About and why</a></nav>
-<h1>North Adriatic Hydrogen Demand Map</h1>
-<p class="sub">Who in the North Adriatic could physically buy hydrogen, and how much. Prototype v0.2, built only from public data (EU ETS verified emissions 2025, Eurostat airport traffic). Estimates rest on stated assumptions and are not validated. <a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">View on GitHub</a></p>
+<nav style="display:flex;gap:16px;font-size:14px;margin:0 0 12px"><a href="index.html">Fuel (e-SAF)</a><a href="hydrogen.html"><b>Hydrogen</b></a><a href="about.html">About and why</a></nav>
+<h1>Hydrogen demand: industry</h1>
+<p class="sub">Which industrial installations in the North Adriatic could use hydrogen, and how much. Prototype v0.3, built only from public data (EU ETS verified emissions 2025). Estimates rest on stated assumptions and are not validated. <a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">View on GitHub</a></p>
 <div class="kpis" id="kpis"></div>
 <h2>Price check</h2>
 <div class="card"><div class="ctl">
@@ -29,22 +29,16 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;b
 <div class="tog"><label><input type="radio" name="z" value="core" checked> Core (SI, Istria/Rijeka/Lika, FVG)</label><label><input type="radio" name="z" value="all"> Core + wider ring (rest of HR, Veneto, Ravenna)</label></div>
 <div class="card" id="bars"></div>
 <h2>Installations</h2>
-<div class="card tw"><table id="tb"><thead><tr><th data-k="n">Installation / holder</th><th data-k="s">Sector</th><th data-k="c">Where</th><th class="n" data-k="e">CO₂ 2025, kt</th><th class="n" data-k="tr">Δ vs 2023</th><th class="n" data-k="h2">H₂ potential, kt/yr</th><th data-k="cq">CO₂ for e-fuel</th></tr></thead><tbody></tbody></table></div>
-<h2>Aviation fuel layer (e-SAF)</h2>
-<div class="card"><div class="ctl"><div><label>Target year (EU synthetic-fuel sub-mandate)</label><select id="yr"><option value="0.012">2030 · 1.2%</option><option value="0.05" selected>2035 · 5%</option><option value="0.10">2040 · 10%</option><option value="0.15">2045 · 15%</option><option value="0.35">2050 · 35%</option></select></div>
-<div><label>Jet fuel per departing passenger: <b id="vF"></b> kg</label><input id="iF" type="range" min="30" max="120" value="60"></div></div>
-<div class="kpis" id="akp" style="margin-top:12px"></div>
-<div class="tw" style="margin-top:10px"><table id="at"><thead><tr><th>Airport</th><th class="n">Passengers 2025</th><th class="n">Jet fuel, kt/yr</th><th class="n">e-SAF, kt/yr</th><th class="n">H₂, kt/yr</th><th class="n">CO₂, kt/yr</th></tr></thead><tbody></tbody></table></div>
-<small>e-kerosene needs about 0.45 t H₂ and 3.1 t CO₂ per t fuel. The obligation sits with fuel suppliers at EU airports, so these figures are the local share of a market that is EU-wide. Airlines and suppliers can buy e-SAF from anywhere.</small></div>
+<div class="card tw"><table id="tb"><thead><tr><th data-k="n">Installation / holder</th><th data-k="s">Sector</th><th data-k="c">Where</th><th class="n" data-k="e">CO₂ 2025, kt</th><th class="n" data-k="tr">Δ vs 2023</th><th class="n" data-k="h2">H₂ potential, kt/yr</th></tr></thead><tbody></tbody></table></div>
 <h2>How the estimate works</h2>
 <div class="card"><ul>
 <li>H₂ potential = verified CO₂ × share of emissions that is fuel heat (H₂-addressable) × 0.149 t H₂ per t CO₂ (gas-equivalent; ammonia 0.105). Shares per sector are <b>illustrative assumptions</b> (e.g. cement 10%, paper 80%, coal/gas power 15%, steel 45%) and must be calibrated with sector experts.</li>
 <li>Location comes from the account holder's postcode, not the plant. Several plants (e.g. INA's refinery, HEP plants) are filed under Zagreb; I added name keywords for Rijeka, Plomin, Pula, Koper etc. Check the "Where" column.</li>
-<li>CO₂ for e-fuel: cement, lime and ammonia emit concentrated process CO₂ (rated High), steel and refining are Medium, combustion and paper are Low. ETS counts fossil CO₂ only, so biogenic CO₂ (e.g. from pulp and paper) is invisible here.</li><li>Aviation: jet fuel is estimated as departing passengers (half of the total) times the fuel slider, so it is a rough proxy. Synthetic shares follow ReFuelEU Aviation as I recall them; check them against the regulation text.</li><li>Not covered: maritime fuels and installations outside the ETS (small, below 20 MW).</li></ul>
+<li>Not covered: maritime fuels and installations outside the ETS (small, below 20 MW). Aviation fuel has its own <a href="index.html">page</a>.</li></ul>
 <p class="note"><a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">Source code and data on GitHub</a></p>
 <p class="note">Sources: European Commission, Union Registry verified emissions 2025 (extract 1 Apr 2026) and list of operators; Eurostat, table avia_paoa (passengers by reporting airport).</p></div>
 <h2>Next: trigger signals (not wired yet)</h2>
-<div class="card"><ul><li>Hydrogen Bank / Innovation Fund / IPCEI results, PCI/PMI lists</li><li>Cancelled H₂ projects: their off-takers become orphaned buyers</li><li>Permits, tenders (TED), leadership or strategy changes, Scope 1 plans</li><li>Warm-path graph: who in the alliance knows a decision-maker at each holder</li><li>Fuel suppliers' SAF compliance gaps and airline offtake announcements</li></ul></div>
+<div class="card"><ul><li>Hydrogen Bank / Innovation Fund / IPCEI results, PCI/PMI lists</li><li>Cancelled H₂ projects: their off-takers become orphaned buyers</li><li>Permits, tenders (TED), leadership or strategy changes, Scope 1 plans</li><li>Warm-path graph: who in the alliance knows a decision-maker at each holder</li></ul></div>
 </main>
 <script>
 const D=__DATA__;const $=s=>document.querySelector(s);let sk='h2',asc=false;
@@ -62,17 +56,9 @@ function bars(){const hs={};rows().forEach(r=>{const o=hs[r.h]||(hs[r.h]={v:0,co
 const a=Object.entries(hs).sort((x,y)=>y[1].v-x[1].v).slice(0,12),m=a[0][1].v;
 $('#bars').innerHTML=a.map(([n,o])=>`<div class="row"><div class="nm" title="${n}">${n}</div><div><div class="bar ${o.core?'':'ring'}" style="width:${o.v/m*100}%"></div></div><div>${f1(o.v)} kt</div></div>`).join('')}
 function tbl(){const rs=rows().slice().sort((a,b)=>{let x=a[sk],y=b[sk];if(x==null)x=-9;if(y==null)y=-9;return (x>y?1:x<y?-1:0)*(asc?1:-1)});
-$('#tb tbody').innerHTML=rs.slice(0,60).map(r=>`<tr><td>${r.n}<br><small>${r.h}</small></td><td>${r.s}</td><td>${r.c} · ${r.city||''} <span class="tag ${r.z}">${r.z}</span></td><td class="n">${f0(r.e/1000)}</td><td class="n">${r.tr==null?'–':(r.tr>0?'+':'')+Math.round(r.tr*100)+'%'}</td><td class="n">${f1(r.h2)}</td><td>${r.cq}</td></tr>`).join('')}
+$('#tb tbody').innerHTML=rs.slice(0,60).map(r=>`<tr><td>${r.n}<br><small>${r.h}</small></td><td>${r.s}</td><td>${r.c} · ${r.city||''} <span class="tag ${r.z}">${r.z}</span></td><td class="n">${f0(r.e/1000)}</td><td class="n">${r.tr==null?'–':(r.tr>0?'+':'')+Math.round(r.tr*100)+'%'}</td><td class="n">${f1(r.h2)}</td></tr>`).join('')}
 document.querySelectorAll('th').forEach(t=>t.onclick=()=>{const k=t.dataset.k;asc=sk==k?!asc:false;sk=k;tbl()});
 document.querySelectorAll('input[name=z]').forEach(i=>i.onchange=()=>{bars();tbl()});
 ['iE','iG','iH'].forEach(i=>$('#'+i).oninput=price);kpis();price();bars();tbl();
-const A=__AIR__;
-function air(){const m=+$('#yr').value,fk=+$('#iF').value;$('#vF').textContent=fk;
-const rs=Object.values(A).map(a=>{const p=a.pax['2025'],jet=p/2*fk/1e6,es=jet*m;return{n:a.name.replace(/ airport/i,''),p,jet,es,h:es*.45,c:es*3.1}}).sort((a,b)=>b.p-a.p);
-const T=rs.reduce((o,r)=>({jet:o.jet+r.jet,es:o.es+r.es,h:o.h+r.h,c:o.c+r.c}),{jet:0,es:0,h:0,c:0});
-const ind=D.filter(r=>r.z=='core').reduce((s,r)=>s+r.h2,0);
-$('#akp').innerHTML=[[f0(T.jet)+' kt','jet fuel, 8 airports'],[f1(T.es)+' kt','e-SAF obligation share'],[f1(T.h)+' kt','H₂ needed (vs '+f0(ind)+' kt industry)'],[f1(T.c)+' kt','CO₂ needed']].map(x=>`<div class="card kpi"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('');
-$('#at tbody').innerHTML=rs.map(r=>`<tr><td>${r.n}</td><td class="n">${f0(r.p)}</td><td class="n">${f0(r.jet)}</td><td class="n">${f1(r.es)}</td><td class="n">${f1(r.h)}</td><td class="n">${f1(r.c)}</td></tr>`).join('')}
-$('#yr').onchange=air;$('#iF').oninput=air;air();
 
 </script></body></html>

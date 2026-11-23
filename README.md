@@ -27,4 +27,4 @@ pip install openpyxl
 python3 scripts/build.py
 ```
 
-This rewrites `data/installations.json` and `index.html` from `scripts/template.html`.
+This rewrites `data/installations.json`, `index.html` (fuel) and `hydrogen.html` from the templates in `scripts/`.
