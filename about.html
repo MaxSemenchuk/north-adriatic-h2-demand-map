@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About the Demand Map</title><style>
+:root{--bg:#f7f6f2;--card:#fff;--ink:#1b1f23;--mut:#6b7280;--line:#e4e2da;--core:#0f766e;--ring:#9ca3af;--acc:#b45309}
+@media(prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8e9ea;--mut:#9aa1a9;--line:#2c3237;--core:#2dd4bf;--ring:#6b7280;--acc:#f59e0b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px}
+.sub{color:var(--mut);margin:0 0 18px}.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.kpi b{display:block;font-size:24px}.kpi span{color:var(--mut);font-size:13px}
+.ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.ctl label{font-size:13px;color:var(--mut);display:block}.ctl input{width:100%}
+.verdict{margin-top:12px;font-weight:600}.row{display:grid;grid-template-columns:150px 1fr 70px;gap:8px;align-items:center;font-size:13px;margin:5px 0}
+.row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bar{height:14px;background:var(--core);border-radius:3px}.bar.ring{background:var(--ring)}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{cursor:pointer;color:var(--mut);font-weight:600;white-space:nowrap}td.n,th.n{text-align:right}
+.tw{overflow-x:auto}.tag{font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--line);color:var(--mut)}.tag.core{color:var(--core);border-color:var(--core)}
+.tog{display:flex;gap:14px;margin:0 0 10px;font-size:13px}small,.note{color:var(--mut);font-size:13px}ul{margin:6px 0;padding-left:20px}
+
+nav{display:flex;gap:16px;font-size:14px;margin:0 0 16px}nav a,a{color:var(--core)}p{margin:8px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}.grid .card h3{margin:0 0 6px;font-size:15px}
+</style></head><body><main>
+<nav><a href="index.html">Demand map</a><a href="about.html"><b>About</b></a><a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">GitHub</a></nav>
+<h1>What this is, and why we propose it</h1>
+<p class="sub">A first step towards a buyer-first intelligence service for hydrogen and e-fuel projects in the North Adriatic.</p>
+<h2>What this is</h2>
+<div class="card"><p>A small prototype built only from public data. It lists the industrial installations in Slovenia, Croatia and Friuli Venezia Giulia that already report CO₂ under the EU ETS, estimates how much hydrogen each could use, and adds a layer for synthetic aviation fuel (e-SAF) based on regional airport traffic. Everything is traceable to a public source and every assumption is shown on the page.</p>
+<p>It is a sketch, not a finished product. The sector shares and fuel figures are assumptions that need calibration with industry experts, and the page has no live signals yet.</p></div>
+<h2>Why start from buyers, not investors</h2>
+<div class="grid">
+<div class="card"><h3>Investors follow offtake</h3><p>A hydrogen or e-fuel plant is financed when someone credibly agrees to buy its output. A clear, ranked list of likely buyers is therefore the strongest starting point for an investor conversation, and it also tells you which investors would care.</p></div>
+<div class="card"><h3>A list of investors is not enough</h3><p>Lists of decision-makers and press releases are visible to everyone and say little about timing. What matters is who needs the product, how much, and at what price it starts to work.</p></div>
+<div class="card"><h3>The price claim needs evidence</h3><p>Any pitch built on a future price parity will be asked what has to be true for it. A live model with the gas price, the carbon price and the delivered hydrogen price as inputs answers this, and it can double as the data room.</p></div>
+<div class="card"><h3>Relationships plus data</h3><p>Strong personal networks already open doors. Data shows which doors are worth opening and why now, so existing relationships are used on the right targets.</p></div></div>
+<h2>What a service could look like</h2>
+<div class="card"><ul>
+<li><b>Demand map</b> of likely buyers, kept up to date as new emissions and permit data are published.</li>
+<li><b>Trigger signals</b>: events that change a buyer's position, such as grant and auction results, cancelled projects (whose buyers are left without a supplier), permits, tenders, strategy changes.</li>
+<li><b>Warm paths</b>: with people's consent, who in the network knows a decision-maker at a target company.</li>
+<li><b>Price model</b> for the "what must be true" question, with scenarios for gas, carbon, electrolyser cost and logistics.</li>
+<li><b>One page a week</b> and alerts when a trigger fires, checked by a person for reliability before it goes out. It is a service run by us, so nobody on the receiving side has to operate anything.</li></ul></div>
+<h2>Where the aviation layer fits</h2>
+<div class="card"><p>EU rules require fuel suppliers to blend growing shares of synthetic aviation fuel, which creates a regulated demand for hydrogen and captured CO₂. The market is EU-wide, so the regional airport figures show the local share, not the whole opportunity. Industrial CO₂ sources on the map double as candidate CO₂ suppliers for e-fuel plants.</p></div>
+<h2>Limits to keep in mind</h2>
+<div class="card"><ul>
+<li>Plant locations come from the account holder's postcode with name-based corrections, so some rows need checking.</li>
+<li>The EU ETS counts fossil CO₂ only, so biogenic CO₂ is not visible.</li>
+<li>Maritime fuels and small installations outside the ETS are not covered.</li>
+<li>Assumptions are unvalidated. Treat the numbers as an order of magnitude.</li></ul></div>
+<h2>Proposed next steps</h2>
+<div class="card"><ol>
+<li>Calibrate the sector shares with an industry expert and fix plant locations.</li>
+<li>Wire two or three signal sources and run them for a month.</li>
+<li>Build the price model with the project's own cost assumptions.</li>
+<li>Decide together whether the weekly brief is worth continuing.</li></ol>
+<p class="note">Source code and data: <a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">github.com/MaxSemenchuk/north-adriatic-h2-demand-map</a></p></div>
+</main></body></html>

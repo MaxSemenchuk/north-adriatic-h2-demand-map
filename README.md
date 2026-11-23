@@ -2,7 +2,7 @@
 
 Prototype (v0.2) that estimates who in the North Adriatic region (Slovenia, Croatia, Friuli Venezia Giulia and a wider ring) could physically buy hydrogen, and how much, plus a layer for synthetic aviation fuel (e-SAF).
 
-**Live page:** see the repository's GitHub Pages site (`index.html`).
+**Live page:** https://maxsemenchuk.github.io/north-adriatic-h2-demand-map/ with an [About page](https://maxsemenchuk.github.io/north-adriatic-h2-demand-map/about.html) explaining what this is and why.
 
 ## What it does
 - **Industrial demand map:** about 126 active EU ETS installations (61 in the core area). Potential hydrogen demand = verified CO₂ 2025 × sector share addressable by hydrogen × 0.149 t H₂ per t CO₂ (0.105 for ammonia).
