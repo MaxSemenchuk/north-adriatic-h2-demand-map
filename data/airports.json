@@ -1,0 +1,66 @@
+{
+ "HR_LDPL": {
+  "name": "PULA airport",
+  "pax": {
+   "2023": 413439,
+   "2024": 498251,
+   "2025": 542315
+  }
+ },
+ "HR_LDRI": {
+  "name": "RIJEKA/KRK airport",
+  "pax": {
+   "2023": 152053,
+   "2024": 140388,
+   "2025": 153082
+  }
+ },
+ "HR_LDZA": {
+  "name": "ZAGREB/FRANJO TUDJMAN airport",
+  "pax": {
+   "2023": 3696371,
+   "2024": 4288553,
+   "2025": 4684727
+  }
+ },
+ "HR_LDZD": {
+  "name": "ZADAR/ZEMUNIK airport",
+  "pax": {
+   "2023": 1213247,
+   "2024": 1576270,
+   "2025": 1620417
+  }
+ },
+ "IT_LIPH": {
+  "name": "TREVISO/S.ANGELO airport",
+  "pax": {
+   "2023": 3033314,
+   "2024": 3047282,
+   "2025": 3198306
+  }
+ },
+ "IT_LIPQ": {
+  "name": "TRIESTE/RONCHI DEI LEGIONARI airport",
+  "pax": {
+   "2023": 930816,
+   "2024": 1315579,
+   "2025": 1647092
+  }
+ },
+ "IT_LIPZ": {
+  "name": "VENEZIA/TESSERA airport",
+  "pax": {
+   "2023": 11314612,
+   "2024": 11579304,
+   "2025": 11836223
+  }
+ },
+ "SI_LJLJ": {
+  "name": "LJUBLJANA/BRNIK airport",
+  "pax": {
+   "2023": 1268352,
+   "2024": 1437662,
+   "2025": 1591308
+  }
+ }
+}
