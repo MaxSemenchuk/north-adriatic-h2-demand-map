@@ -1,0 +1,127 @@
+country,zone,installation,account_holder,city,activity,sector,h2_share,h2_factor_t_per_t_co2,co2_2025_t,co2_2024_t,co2_2023_t,h2_potential_t_per_yr
+SI,core,Termoelektrarna Šoštanj d.o.o.,TERMOELEKTRARNA ŠOŠTANJ D.O.O.,Šoštanj,Combustion of fuels,Power & heat,0.15,0.149,1803345,3089330,2745945,40305
+HR,core,INA- Industrija nafte d.d. Rafinerija nafte Rijeka,INA d.d.,Zagreb,Refining of mineral oil,Refining,0.5,0.149,915840,663741,678325,68230
+HR,ring,Te-TO Zagreb,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,801993,826717,908702,17925
+HR,ring,Petrokemija d.d. tvornica gnojiva,Petrokemija d.d. tvornica gnojiva,Kutina,Production of ammonia,Ammonia / fertiliser,0.9,0.105,773673,279243,344902,73112
+HR,ring,CEMEX Hrvatska d.d.,CEMEX Hrvatska d.d.,Kaštel Sućurac,Production of cement clinker,Cement,0.1,0.149,607011,637118,781042,9044
+HR,core,TE Plomin 2,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,591315,679871,1118156,13216
+SI,core,"Salonit Anhovo, d.d.","SALONIT ANHOVO, D.D.",Deskle,Production of cement clinker,Cement,0.1,0.149,578284,684374,677478,8616
+HR,ring,Našicecement d.d.,NEXE d.d.,Našice,Production of cement clinker,Cement,0.1,0.149,474039,542645,598547,7063
+SI,core,"TE-TOL, D.O.O.","ENERGETIKA LJUBLJANA, d.o.o.",Ljubljana,Combustion of fuels,Power & heat,0.15,0.149,390216,292715,319197,8721
+HR,core,Holcim (Hrvatska) d.o.o.,Holcim (Hrvatska) d.o.o.,Koromačno,Production of cement clinker,Cement,0.1,0.149,252172,298974,297114,3757
+HR,ring,EL-TO Zagreb,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,241393,194086,197798,5395
+IT,core,Acciaierie Bertoli Safau S.p.A.,Acciaierie Bertoli Safau S.p.A.,Pozzuolo del Friuli (UD),Production of pig iron or steel,Steel & metals,0.45,0.149,236422,241313,259007,15852
+IT,ring,UNITA' PRODUTTIVA DI MONTICHIARI,FASSA SRL,SPRESIANO,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,215805,216122,203439,9646
+IT,ring,Orion Engineered Carbons Srl S.r.l.,Orion Engineered Carbons S.r.l.,Ravenna,Other activity opted-in pursuant to Article 24 of Directive 2003/87/EC,Other,0.3,0.149,206542,222616,207815,9232
+HR,ring,TE Sisak,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,205679,472474,621458,4597
+IT,ring,FORNI PER PRODUZIONE CALCE,FORNACI CALCE GRIGOLIN S.P.A.,SUSEGANA  (Fraz. Ponte della Priula),"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,199309,186553,192233,8909
+IT,ring,Cabot Italiana SpA,Cabot Italiana SpA,Ravenna,Combustion of fuels,Power & heat,0.15,0.149,173352,188245,186766,3874
+IT,core,Ferriere Nord Spa - Stabilimento di Osoppo,Ferriere Nord Spa,OSOPPO,Production of pig iron or steel,Steel & metals,0.45,0.149,153923,164404,176710,10321
+IT,ring,PRODUZIONE CALCE VIVA CERAINO,FASSA SRL,SPRESIANO,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,150215,141464,145472,6715
+IT,ring,CARTIERE  VILLA LAGARINA SPA,CARTIERE VILLA LAGARINA SPA,ISTRANA,Production of paper or cardboard,Paper & pulp,0.8,0.149,113667,97886,91487,13549
+IT,core,Stabilimento di Duino,MONDI DUINO S.R.L.,Duino Aurisina (TS),Production of paper or cardboard,Paper & pulp,0.8,0.149,113241,5,25402,13498
+HR,ring,Vetropack Straža tvornica stakla d.d. Hum na Sutli,Vetropack Straža tvornica stakla d.d.,Hum na Sutli,Manufacture of glass,Glass,0.6,0.149,108224,99511,118540,9675
+IT,ring,IMPIANTO PER LA PRODUZIONE DI VETRO CAVO MECCANICO,ZIGNAGO VETRO S.p.A.,FOSSALTA DI PORTOGRUARO,Manufacture of glass,Glass,0.6,0.149,107429,108745,116176,9604
+HR,core,Calucem d.o.o.,Calucem d.o.o.,Pula,Production of cement clinker,Cement,0.1,0.149,102858,86173,111801,1533
+IT,ring,Unigrà SRL. - stabilimento di Conselice,Unigrà Srl,CONSELICE,Combustion of fuels,Power & heat,0.15,0.149,101173,69892,54756,2261
+SI,core,"Acroni, d.o.o.",SIJ ACRONI D.O.O.,Jesenice,Production of pig iron or steel,Steel & metals,0.45,0.149,86003,91097,72758,5767
+IT,core,ACCIAIERIE DI VERONA S.p.A.,ACCIAIERIE DI VERONA S.p.A.,OSOPPO (UD),Production of pig iron or steel,Steel & metals,0.45,0.149,85416,79670,79859,5727
+IT,ring,FORNACI ZULIAN s.r.l.,Fornaci Zulian srl,FONTANIVA (PD),Installations for the production of cement clinker in rotary kilns or lime in rotary kilns or in other furnaces,Cement,0.1,0.149,78403,76853,78594,1168
+SI,core,"Termo, d.d. (Trata)",KNAUFINSULATION d.o.o.,Škofja Loka,Manufacture of mineral wool,Ceramics & wool,0.65,0.149,78062,85047,84206,7560
+IT,ring,CARTIERE DEL POLESINE SPA STABILIMENTO DI ADRIA,Cartiere del Polesine S.p.A.,LOREO,Production of paper or cardboard,Paper & pulp,0.8,0.149,77777,76304,79254,9271
+IT,ring,STABILIMENTO DI MANTOVA,CARTIERE VILLA LAGARINA SPA,ISTRANA,Production of paper or cardboard,Paper & pulp,0.8,0.149,77389,56372,94760,9225
+IT,ring,IMPIANTO PER LA PRODUZIONE DI VETRO CAVO MECCANICO,ZIGNAGO VETRO S.p.A.,FOSSALTA DI PORTOGRUARO,Manufacture of glass,Glass,0.6,0.149,75146,68062,79854,6718
+HR,ring,Objekti prerade plina Molve,INA d.d.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,73429,79630,71130,1641
+IT,ring,UNITA' PRODUTTIVA DI SPRESIANO,FASSA SRL,SPRESIANO,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,72092,73059,72084,3223
+HR,ring,DS Smith Belišće Croatia d.o.o.,DS Smith Belišće Croatia d.o.o.,Belišće,Combustion of fuels,Power & heat,0.15,0.149,70358,97175,90975,1573
+HR,core,Rockwool Adriatic d.o.o.,Rockwool Adriatic d.o.o.,Potpićan (općina Kršan),Manufacture of mineral wool,Ceramics & wool,0.65,0.149,68527,70618,57830,6637
+SI,core,Metal Ravne d.o.o.,SIJ METAL RAVNE d.o.o.,Ravne na Koroškem,Production of pig iron or steel,Steel & metals,0.45,0.149,66977,70803,69739,4491
+IT,ring,Bunge Italia S.p.A. Stabilimento di Porto Corsini,Bunge Italia SpA,RAVENNA,Combustion of fuels,Power & heat,0.15,0.149,63803,66978,66229,1426
+IT,ring,CARTIERA DI CARBONERA SPA,CARTIERA DI CARBONERA SPA,ISTRANA,Production of paper or cardboard,Paper & pulp,0.8,0.149,59705,49072,48845,7117
+SI,core,"Količevo karton, d.o.o.",MM KOLIČEVO D.O.O.,Domžale,Production of paper or cardboard,Paper & pulp,0.8,0.149,57593,52074,39955,6865
+IT,core,Siderpotenza S.p.A.,Siderpotenza S.p.A.,Osoppo (UD),Production of pig iron or steel,Steel & metals,0.45,0.149,57072,51415,49240,3827
+SI,core,"Energetika Ljubljana, d.o.o.","ENERGETIKA LJUBLJANA, D.O.O.",Ljubljana,Combustion of fuels,Power & heat,0.15,0.149,55334,71150,65870,1237
+SI,core,"IGM Zagorje, d.o.o.",InterCal Slovenija d.o.o.,Zagorje ob Savi,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,51975,53240,55756,2323
+HR,ring,POGON I,Intercal Croatia d.o.o.,Sirač,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,50166,30044,42597,2242
+IT,ring,CARTIERA GIORGIONE S.p.A.,CARTIERA GIORGIONE S.p.A.,CASTELFRANCO VENETO,Industrial plants for the production of (a) pulp from timber or other fibrous materials (b) paper and board,Paper & pulp,0.8,0.149,49749,51319,51215,5930
+HR,ring,Objekti frakcionacije Ivanić Grad,INA d.d.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,48328,49693,46433,1080
+IT,ring,Sappi Condino,SAPPI ITALY OPERATIONS  SPA,CARMIGNANO DI BRENTA (PD),Production of paper or cardboard,Paper & pulp,0.8,0.149,45805,46147,37892,5460
+SI,core,Papirnica Vevce d.o.o.,PAPIRNICA VEVČE d.o.o.,Ljubljana - Dobrunje,Production of paper or cardboard,Paper & pulp,0.8,0.149,43130,43620,38357,5141
+HR,ring,POGON II,Intercal Croatia d.o.o.,Sirač,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,42453,55407,44082,1898
+HR,ring,TE-TO Osijek,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,41677,50459,78351,931
+HR,ring,HIŠ pogon Županja,Hrvatska industrija šećera d.d.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,41194,42486,62244,921
+HR,ring,Terminal za UPP,LNG Hrvatska d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,40690,37468,38215,909
+SI,core,Proizvodnja primarnega aluminija,Talum d.d. Kidričevo,Kidričevo,Production of primary aluminium,Steel & metals,0.6,0.149,40108,41217,39812,3586
+IT,core,R.D.M. OVARO S.P.A.,R.D.M. OVARO S.P.A.,OVARO,Production of paper or cardboard,Paper & pulp,0.8,0.149,35742,34291,28285,4260
+IT,core,Bipan Bicinicco,Bipan S.p.A.,Bicinicco,Combustion of fuels,Power & heat,0.15,0.149,35353,31409,23892,790
+IT,ring,Papergroup S.p.A. Divisione Cartiera,TOLENTINO SPA,TREVISO,Industrial plants for the production of (a) pulp from timber or other fibrous materials (b) paper and board,Paper & pulp,0.8,0.149,35102,35922,34288,4184
+IT,ring,UNITA' PRODUTTIVA DI CALLIANO,FASSA SRL,SPRESIANO,Production or processing of gypsum or plasterboard,Lime & gypsum,0.3,0.149,34133,32572,30151,1526
+IT,core,GEFS - CENTRALE ELETTRICA DI TRIESTE,Green Energy for Steel S.r.l.,CREMONA (CR),Combustion of fuels,Power & heat,0.15,0.149,33813,35359,46640,756
+HR,ring,Knauf Insulation d.o.o.,KNAUF INSULATION d.o.o.,Novi Marof,Manufacture of mineral wool,Ceramics & wool,0.65,0.149,33069,35018,36071,3203
+SI,core,Impol d.o.o.,IMPOL d.o.o.,Slovenska Bistrica,Production of secondary aluminium,Steel & metals,0.6,0.149,33054,33176,33494,2955
+IT,ring,TOLENTINO S.R.L.,TOLENTINO SPA,TREVISO,Production of paper or cardboard,Paper & pulp,0.8,0.149,32729,31656,27123,3901
+SI,core,Vipap Videm Krško d.d.,"VIPAP VIDEM KRŠKO, D.D.",Krško,Production of paper or cardboard,Paper & pulp,0.8,0.149,32649,44195,57681,3892
+IT,core,Stabilimento di Moggio Udinese,CARTIERE ERMOLLI SpA,MOGGIO UDINESE (UD),Production of paper or cardboard,Paper & pulp,0.8,0.149,32604,34264,30966,3886
+IT,ring,Stabilimento di Monopoli,Casa Olearia Italiana spa,Venezia,Combustion of fuels,Power & heat,0.15,0.149,32113,29853,22006,718
+IT,core,OFFICINE TECNOSIDER SRL,OFFICINE TECNOSIDER S.R.L.,Udine (UD),Production or processing of ferrous metals,Steel & metals,0.45,0.149,31931,28457,30716,2141
+SI,core,ŠTORE STEEL D.O.O.,ŠTORE STEEL D.O.O.,Štore,Production of pig iron or steel,Steel & metals,0.45,0.149,31156,27668,29129,2089
+IT,core,AO S. Maria MIsericordia Udine,SIRAM SPA,Milano,Combustion of fuels,Power & heat,0.15,0.149,29494,,,659
+IT,core,Stabilimento Fantoni - Rivoli Osoppo,FANTONI SpA,OSOPPO,Combustion installations with a rated thermal input exceeding 20 MW,Power & heat,0.15,0.149,28611,22238,25500,639
+IT,ring,Cereal Docks Marghera,CEREAL DOCKS MARGHERA S.R.L.,VENEZIA,Combustion of fuels,Power & heat,0.15,0.149,27928,43484,42149,624
+HR,ring,GIRK Kalun d.d.,GIRK Kalun d.d.,Drniš,"Production of lime, or calcination of dolomite/magnesite",Lime & gypsum,0.3,0.149,25589,28861,30111,1144
+SI,core,"Krka, d.d., Novo mesto","KRKA, d. d., Novo mesto",Novo mesto,Combustion of fuels,Power & heat,0.15,0.149,25362,24228,25353,567
+IT,ring,Santa Maria s.r.l. Stabilimento di Filo,Santa Maria s.r.l.,Alfonsine (RA),Manufacture of ceramics,Ceramics & wool,0.65,0.149,25209,22298,25881,2441
+SI,core,Silkem d.o.o.,SILKEM  D.O.O.,Kidričevo,Combustion of fuels,Power & heat,0.15,0.149,25122,25918,22419,561
+IT,ring,Raffineria di greggi e oli pesanti,Alma Petroli Spa,RAVENNA,Refining of mineral oil,Refining,0.5,0.149,25095,28234,27363,1870
+SI,core,"Cinkarna Celje, d.d.","CINKARNA CELJE, D.D.",Celje,Combustion installations with a rated thermal input exceeding 20 MW,Power & heat,0.15,0.149,24767,23273,19371,554
+SI,core,Paloma d.d.,PALOMA D.D.,Sladki Vrh,Production of paper or cardboard,Paper & pulp,0.8,0.149,24183,25559,20271,2883
+SI,core,"Sava Tires, d.o.o.","GOODYEAR SLOVENIJA, d.o.o.",Kranj,Combustion of fuels,Power & heat,0.15,0.149,24080,24127,23286,538
+SI,core,STEKLARNA HRASTNIK - SPECIAL d.o.o.,STEKLARNA HRASTNIK D.O.O.,HRASTNIK,Manufacture of glass,Glass,0.6,0.149,21713,23251,22627,1941
+SI,core,TEB d.o.o. Brestanica,TEB D.O.O. BRESTANICA,Brestanica,Combustion of fuels,Power & heat,0.15,0.149,20650,26021,3929,462
+IT,core,Acciaieria Arvedi S.p.A - Stabilimento di Trieste,Acciaieria Arvedi S.p.A.,Milano (MI),Production or processing of ferrous metals,Steel & metals,0.45,0.149,20196,16968,10419,1354
+SI,core,Goricane d.d.,GORIČANE D.D. MEDVODE,Medvode,Production of paper or cardboard,Paper & pulp,0.8,0.149,18857,20693,20261,2248
+IT,ring,Stabilimento di Maniago,Fonderie Pandolfo SpA,Rubano (PD) - Località SARMEOLA,Production of secondary aluminium,Steel & metals,0.6,0.149,18637,16395,15651,1666
+IT,ring,NICHE Fusina Rolled Products srl,Niche Fusina Rolled Products srl,Malcontenta loc. Fusina (Venezia),Production of secondary aluminium,Steel & metals,0.6,0.149,17349,16703,15347,1551
+IT,ring,CARTIERE DEL POLESINE SPA - STABILIMENTO DI LOREO,Cartiere del Polesine S.p.A.,LOREO,Production of paper or cardboard,Paper & pulp,0.8,0.149,17248,16472,15189,2056
+IT,ring,Centrale elettrica con motori endotermici,Ital Green Energy srl,Venezia,Combustion of fuels,Power & heat,0.15,0.149,16063,18737,6902,359
+HR,ring,Impol - TLM d.o.o.,Impol - TLM d.o.o.,Šibenik,Production of secondary aluminium,Steel & metals,0.6,0.149,15579,15832,15151,1393
+SI,core,"ENOS - Energetika, d.o.o., Jesenice","ENOS,d.d.",Jesenice,Combustion of fuels,Power & heat,0.15,0.149,13497,14049,15826,302
+HR,ring,Ciglana Cerje Tužno d.o.o.,Ciglana Cerje Tužno d.o.o.,Maruševec,Manufacture of ceramics,Ceramics & wool,0.65,0.149,13444,11874,10672,1302
+SI,core,"Komunala Trbovlje, d.o.o.","KOMUNALA TRBOVLJE, D.O.O.",Trbovlje,Combustion of fuels,Power & heat,0.15,0.149,12769,9627,13590,285
+IT,core,Centrale di Gorizia,Metaenergia Produzione S.r.l.,ROMA,Combustion of fuels,Power & heat,0.15,0.149,12281,27755,20213,274
+SI,core,Petrol energetika d.o.o.,"PETROL d.d., Ljubljana",Ljubljana,Combustion of fuels,Power & heat,0.15,0.149,11960,11280,12556,267
+SI,core,JAVNO PODJETJE ENERGETIKA MARIBOR D.O.O.,JAVNO PODJETJE ENERGETIKA MARIBOR D.O.O.,Maribor,Combustion of fuels,Power & heat,0.15,0.149,11954,12624,11570,267
+HR,ring,HARTMANN HRVATSKA,HARTMANN d.o.o.,Koprivnica,Production of paper or cardboard,Paper & pulp,0.8,0.149,11868,11839,13400,1415
+HR,core,Toplana-Karlovac,Gradska toplana d.o.o.,Karlovac,Combustion of fuels,Power & heat,0.15,0.149,11841,10378,11078,265
+SI,core,"Radece papir, d.o.o.","RADEČE PAPIR NOVA, d.o.o.",Radeče,Production of paper or cardboard,Paper & pulp,0.8,0.149,10883,11263,11625,1297
+IT,core,SISECAM FLAT GLASS ITALY SRL,SISECAM FLAT GLASS ITALY SRL,SAN GIORGIO DI NOGARO (UD),Manufacture of glass,Glass,0.6,0.149,9971,91764,103879,891
+HR,core,Pogon Karlovac,Wienerberger d.o.o.,Karlovac,Manufacture of ceramics,Ceramics & wool,0.65,0.149,9157,8615,7231,887
+SI,core,Weinerberger d.d.,"WIENERBERGER, d.o.o.",Ormož,Combustion of fuels,Power & heat,0.15,0.149,8340,7061,7494,186
+HR,ring,Pogon I,Dilj d.o.o.,Vinkovci,Manufacture of ceramics,Ceramics & wool,0.65,0.149,8156,7941,7591,790
+IT,ring,Distillerie Bonollo Umberto-Stabilimento Conselve,Distillerie Bonollo Umberto S.p.A.,Mestrino (PD),Combustion installations with a rated thermal input exceeding 20 MW,Power & heat,0.15,0.149,7605,6842,6088,170
+HR,ring,Pogon Slavonka,Dilj d.o.o.,Vinkovci,Manufacture of ceramics,Ceramics & wool,0.65,0.149,7217,7507,6932,699
+SI,core,Revoz d.d.,REVOZ D.D.,Novo mesto,Combustion of fuels,Power & heat,0.15,0.149,6979,6413,5659,156
+HR,ring,Kronospan CRO d.o.o,Kronospan CRO d.o.o.,Bjelovar,Combustion of fuels,Power & heat,0.15,0.149,6771,14095,19843,151
+SI,core,"TKI Hrastnik, d.d.","TKI-HRASTNIK, D.D.",Hrastnik,Combustion of fuels,Power & heat,0.15,0.149,6622,7659,7546,148
+HR,ring,LEIER-LEITL d.o.o.,LEIER-LEITL d.o.o.,Turčin,Manufacture of ceramics,Ceramics & wool,0.65,0.149,6026,6366,5231,584
+IT,ring,Kastamonu Italia SPA,Kastamonu Italia SPA,Ravenna (RA),Combustion of fuels,Power & heat,0.15,0.149,5868,3551,1987,131
+SI,core,"Pivovarna Laško, d.d.",PIVOVARNA LAŠKO UNION d.o.o.,Ljubljana,Combustion of fuels,Power & heat,0.15,0.149,5620,6389,5751,126
+IT,ring,Sappi Carmignano,SAPPI ITALY OPERATIONS  SPA,CARMIGNANO DI BRENTA (PD),Production of paper or cardboard,Paper & pulp,0.8,0.149,5231,5302,4574,624
+IT,ring,Centrale Biomasse Conselice Est,Unigrà Srl,CONSELICE,Combustion of fuels,Power & heat,0.15,0.149,4893,1942,2052,109
+HR,ring,Pogon Našice,Dilj d.o.o.,Vinkovci,Manufacture of ceramics,Ceramics & wool,0.65,0.149,4812,3428,6066,466
+IT,ring,PRO GEST SPA,PRO-GEST S.P.A.,TREVISO,Production of paper or cardboard,Paper & pulp,0.8,0.149,4327,4155,4612,516
+HR,ring,Podravka d.d. - lokacija industrijska zona Danica,Podravka d.d.,Koprivnica,Combustion of fuels,Power & heat,0.15,0.149,4321,3810,8977,97
+IT,core,ZML - Area Industriale GHISA,ZML Industries SpA,Maniago,Production or processing of ferrous metals,Steel & metals,0.45,0.149,4086,4844,9997,274
+SI,core,"Energetika Celje javno podjetje, d.o.o.","ENERGETIKA CELJE, D.O.O.",Celje,Combustion of fuels,Power & heat,0.15,0.149,3325,2755,2623,74
+HR,core,Kotlovnica ''Karlovačka pivovara'',HEINEKEN HRVATSKA d.o.o.,Karlovac,Combustion of fuels,Power & heat,0.15,0.149,3179,2930,2988,71
+HR,ring,Podravka d.d. - lokacija Ante Starčevića 32 Kopr.,Podravka d.d.,Koprivnica,Combustion of fuels,Power & heat,0.15,0.149,2803,2539,3137,63
+HR,ring,POGON SARVAŠ,EUROKAMEN d.o.o.,Osijek,Manufacture of ceramics,Ceramics & wool,0.65,0.149,2022,2487,2620,196
+IT,ring,Dister Energia SpA,DISTER ENERGIA SPA,FAENZA (RA),Combustion installations with a rated thermal input exceeding 20 MW,Power & heat,0.15,0.149,877,850,1665,20
+HR,core,TE Rijeka,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,743,966,23365,17
+SI,core,"TET, d.o.o.",HSE Energetska družba Trbovlje d.o.o.,Trbovlje,Combustion of fuels,Power & heat,0.15,0.149,660,1537,181,15
+SI,core,Gorenjska predilnica d.d.,"GORENJSKA PREDILNICA, D.D.",Škofja Loka,Combustion of fuels,Power & heat,0.15,0.149,611,771,829,14
+HR,core,TE Plomin 1,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,325,407,47,7
+HR,ring,KTE Jertovec,HEP-Proizvodnja d.o.o.,Zagreb,Combustion of fuels,Power & heat,0.15,0.149,143,364,12285,3
+HR,ring,ABS Sisak d.o.o.,Acciaierie Bertoli Safau Sisak d.o.o.,Sisak,Production of pig iron or steel,Steel & metals,0.45,0.149,67,22946,33099,4
+IT,core,Centrale Termoelettrica di Monfalcone,A2A ENERGIEFUTURE S.P.A.,Milano,Combustion of fuels,Power & heat,0.15,0.149,15,30,305627,0
+IT,ring,CARTITALIA SRL,CARTITALIA SPA,TREVISO,Production of paper or cardboard,Paper & pulp,0.8,0.149,7,28060,35057,1
