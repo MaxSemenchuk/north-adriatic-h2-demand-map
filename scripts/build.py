@@ -47,6 +47,6 @@ for r in out: tot[r['z']]+=r['e']*r['sh']*r['f']
 print({k:round(v/1e3,1) for k,v in tot.items()},'kt H2 (core/ring)')
 air=json.load(open('data/airports.json'))
 json.dump(out,open('data/installations.json','w'),ensure_ascii=False,indent=0)
-for src,dst in [('fuel','index.html'),('hydrogen','hydrogen.html')]:
+for src,dst in [('fuel','adriatic-fuel.html'),('hydrogen','hydrogen.html')]:
     t=open(f'scripts/template_{src}.html').read().replace('__DATA__',json.dumps(out,ensure_ascii=False)).replace('__AIR__',json.dumps(air))
     open(dst,'w').write(t)

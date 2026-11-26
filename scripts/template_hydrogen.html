@@ -14,7 +14,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;b
 .tw{overflow-x:auto}.tag{font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--line);color:var(--mut)}.tag.core{color:var(--core);border-color:var(--core)}
 .tog{display:flex;gap:14px;margin:0 0 10px;font-size:13px}small,.note{color:var(--mut);font-size:13px}ul{margin:6px 0;padding-left:20px}
 </style></head><body><main>
-<nav style="display:flex;gap:16px;font-size:14px;margin:0 0 12px"><a href="index.html">Fuel (e-SAF)</a><a href="hydrogen.html"><b>Hydrogen</b></a><a href="about.html">About and why</a></nav>
+<nav style="display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;margin:0 0 12px"><a href="index.html">Europe e-SAF map</a><a href="adriatic-fuel.html">Adriatic fuel demand</a><a href="hydrogen.html"><b>Hydrogen</b></a><a href="about.html">About and why</a></nav>
 <h1>Hydrogen demand: industry</h1>
 <p class="sub">Which industrial installations in the North Adriatic could use hydrogen, and how much. Prototype v0.3, built only from public data (EU ETS verified emissions 2025). Estimates rest on stated assumptions and are not validated. <a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">View on GitHub</a></p>
 <div class="kpis" id="kpis"></div>
@@ -34,7 +34,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;b
 <div class="card"><ul>
 <li>H₂ potential = verified CO₂ × share of emissions that is fuel heat (H₂-addressable) × 0.149 t H₂ per t CO₂ (gas-equivalent; ammonia 0.105). Shares per sector are <b>illustrative assumptions</b> (e.g. cement 10%, paper 80%, coal/gas power 15%, steel 45%) and must be calibrated with sector experts.</li>
 <li>Location comes from the account holder's postcode, not the plant. Several plants (e.g. INA's refinery, HEP plants) are filed under Zagreb; I added name keywords for Rijeka, Plomin, Pula, Koper etc. Check the "Where" column.</li>
-<li>Not covered: maritime fuels and installations outside the ETS (small, below 20 MW). Aviation fuel has its own <a href="index.html">page</a>.</li></ul>
+<li>Not covered: maritime fuels and installations outside the ETS (small, below 20 MW). Aviation fuel has its own <a href="adriatic-fuel.html">page</a>.</li></ul>
 <p class="note"><a href="https://github.com/MaxSemenchuk/north-adriatic-h2-demand-map">Source code and data on GitHub</a></p>
 <p class="note">Sources: European Commission, Union Registry verified emissions 2025 (extract 1 Apr 2026) and list of operators; Eurostat, table avia_paoa (passengers by reporting airport).</p></div>
 <h2>Next: trigger signals (not wired yet)</h2>
