@@ -6,7 +6,7 @@ Prototype (v0.2) that estimates who in the North Adriatic region (Slovenia, Croa
 
 The Europe e-SAF map is a working draft: scenario assumptions are ours, several statuses come from search summaries, and rows marked unverified have not been checked against sources.
 
-**Use it in Claude:** see the [starter kit](claude/README.md) to set up a Claude project with this data and a weekly brief.
+**Use it in an AI chat:** the [Europe e-SAF starter kit](claude-esaf/README.md) has the data as CSV plus instructions, so you can paste one link and ask questions. The older [Adriatic starter kit](claude/README.md) sets up a Claude project with a weekly brief.
 
 ## What it does
 - **Industrial demand map:** about 126 active EU ETS installations (61 in the core area). Potential hydrogen demand = verified CO₂ 2025 × sector share addressable by hydrogen × 0.149 t H₂ per t CO₂ (0.105 for ammonia).

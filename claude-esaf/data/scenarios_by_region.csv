@@ -1,0 +1,46 @@
+scenario,year,region,e_kerosene_kt_per_yr
+announced,2030,Associated (NO/IS/UK),128.5
+announced,2030,Central Europe,0.0
+announced,2030,Iberia,175.0
+announced,2030,NW Europe,444.0
+announced,2030,Nordics & Baltics,328.2
+announced,2032,Associated (NO/IS/UK),279.1
+announced,2032,Central Europe,48.0
+announced,2032,Iberia,396.6
+announced,2032,NW Europe,994.3
+announced,2032,Nordics & Baltics,613.0
+announced,2035,Associated (NO/IS/UK),515.1
+announced,2035,Central Europe,60.0
+announced,2035,Iberia,428.4
+announced,2035,NW Europe,1157.1
+announced,2035,Nordics & Baltics,738.2
+base,2030,Associated (NO/IS/UK),0.4
+base,2030,Central Europe,0.0
+base,2030,Iberia,1.0
+base,2030,NW Europe,4.2
+base,2030,Nordics & Baltics,0.0
+base,2032,Associated (NO/IS/UK),3.7
+base,2032,Central Europe,0.0
+base,2032,Iberia,3.9
+base,2032,NW Europe,101.3
+base,2032,Nordics & Baltics,64.3
+base,2035,Associated (NO/IS/UK),22.3
+base,2035,Central Europe,3.8
+base,2035,Iberia,32.7
+base,2035,NW Europe,250.6
+base,2035,Nordics & Baltics,150.7
+cautious,2030,Associated (NO/IS/UK),0.1
+cautious,2030,Central Europe,0.0
+cautious,2030,Iberia,0.9
+cautious,2030,NW Europe,3.8
+cautious,2030,Nordics & Baltics,0.0
+cautious,2032,Associated (NO/IS/UK),0.2
+cautious,2032,Central Europe,0.0
+cautious,2032,Iberia,0.9
+cautious,2032,NW Europe,13.3
+cautious,2032,Nordics & Baltics,7.0
+cautious,2035,Associated (NO/IS/UK),5.7
+cautious,2035,Central Europe,0.9
+cautious,2035,Iberia,10.4
+cautious,2035,NW Europe,111.4
+cautious,2035,Nordics & Baltics,67.1
