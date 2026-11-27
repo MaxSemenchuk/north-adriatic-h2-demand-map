@@ -7,9 +7,10 @@ This folder lets anyone ask questions about the data behind the map, in plain la
 ## Fastest way (no setup)
 Paste this into Claude or ChatGPT (a version with web access):
 
-> Read https://raw.githubusercontent.com/MaxSemenchuk/north-adriatic-h2-demand-map/main/claude-esaf/INSTRUCTIONS.md and the files it lists in the same repository (folder `claude-esaf/data/`, meanings in `DATA_DICTIONARY.md`). Follow those instructions. Then answer: <your question>
+> Open this one file and read it completely before answering: https://raw.githubusercontent.com/MaxSemenchuk/north-adriatic-h2-demand-map/main/claude-esaf/ALL_IN_ONE.md
+> It contains the instructions, the data dictionary and every data table. Start your reply with "Files read:" and confirm what you read. Do not answer from memory or general knowledge. Follow the instructions in the file. Then answer: <your question>
 
-If the chat cannot open links, upload the files instead.
+If the chat cannot open links, download `ALL_IN_ONE.md` and upload it, or paste its content.
 
 ## Set up a Claude project (about 5 minutes)
 1. Create a new **Project**.
